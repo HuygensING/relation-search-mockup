@@ -1,0 +1,55 @@
+#query-builder {
+	overflow-x: auto;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.domain-select,
+.relation-select,
+.related-domain-label {
+	display: inline-block;
+	min-width: 200px;
+	max-width: 300px;
+	vertical-align: top;
+	margin-left: 20px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 8px;
+}
+
+.related-domain-name {
+	color: green;
+	text-decoration: underline;
+}
+
+.related-domain-label label {
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+.related-domain-label label.active {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.selected-relations > div {
+	clear: right;
+	white-space: normal;
+}
+.selected-relations button {
+	float: right;
+}
+
+.relation-description {
+	color: #666;
+}
+
+main > div {
+	display: none;
+}
+
+main > div.visible {
+	display: block;
+}
